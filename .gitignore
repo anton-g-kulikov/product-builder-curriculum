@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build and test output
+build/
+coverage/
+dist/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Operating-system files
+.DS_Store
+
+# Metacoding: generated AI coding assistant integrations
+.codex/skills/metacoding-workflow/
+.claude/agents/metacoding-workflow.md
+.claude/metacoding-workflow/
+.agents/skills/metacoding-workflow/
+.backup/
