@@ -76,6 +76,16 @@ The eventual objective is to control the complete loop:
 
 > Product requirement → software requirements → architecture → agent implementation → integration → verification → production → observation → iteration
 
+## Repository workflow
+
+Changes to this repository follow a verification-first metacoding workflow:
+
+1. Capture the bounded task, success criteria, status, and deferred work in the [`_meta/project-task-list.md`](_meta/project-task-list.md).
+2. Define the evidence that will prove the change correct in [`test/test-documentation.md`](test/test-documentation.md) before implementation.
+3. Make one coherent change at a time, run the relevant checks, and preserve each concern in a focused commit.
+
+The task list owns temporal project status. Test documentation owns verification intent. This README remains the stable project overview and contributor entry point.
+
 ## Assessment
 
 Product Builder tests understanding and engineering judgment rather than syntax performance.
